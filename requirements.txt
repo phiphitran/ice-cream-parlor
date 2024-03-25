@@ -1,0 +1,7 @@
+fastapi==0.110.0
+transformers==4.39.1
+streamlit==1.32.2
+mistralai==0.1.6
+tensorflow==2.16.1
+tf-keras==2.16.0
+uvicorn==0.29.0
