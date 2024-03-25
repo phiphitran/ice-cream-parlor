@@ -12,14 +12,12 @@ Start with cloning the project and install the packages.
 pip install -r requirements.txt
 ```
 ## How to interact with the agent
-Open a terminal, locate the folder with main.py and run
+Open a terminal, locate the main.py and run
 ```
-cd ice-cream
 uvicorn main:app --reload
 ```
-Keep the window open and in a second terminal, locate the streamlit.py and run it
+Keep the window open and in a second terminal, locate the streamlit.py and run it using
 ```
-cd ice-cream
 streamlit run streamlit.py
 ```
 A browser tab will open where you can chat with the agent.
