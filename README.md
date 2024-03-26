@@ -47,8 +47,8 @@ Below are the tools used and a short description of why they were chosen
 - Transformers (huggingface)
     - Used to perform sentiment analysis on feedback for feedback report
 - MistralAI
-    - To ensure data privacy, open-source models are preferred and OpenAI models was thus excluded. 
-    - Another important aspect to consider was the possibility to connect to external tools, such as APIs, and perform a so called function calling. Limited chat models has this functionality today and one of the models with clear documentations was Mistral.
+    - To ensure data privacy, open-source models are preferred and OpenAI models was thus excluded in the beginning. 
+    - Another important aspect to consider was the possibility to connect to external tools, such as APIs, and perform a so called function calling. Limited chat models has this functionality today and one of the models with clear documentations was Mistral. Mistral has some open-weight models but these are today not supporting function calling. For convenience (and time restriction), their latest closed-weight model was chosen.
 
 ## Challenges
 - One of the time consuming part was to find relevant tools and modules to use, for example the function calling. 
